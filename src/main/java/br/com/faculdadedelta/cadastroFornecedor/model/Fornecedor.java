@@ -17,7 +17,7 @@ public class Fornecedor implements Serializable {
 		private String cpf_Cnpj; 
 		private String nome; 
 		private String area_Produtos;
-		private int telefone; 
+		private String telefone; 
 		private String email;
 		
 		
@@ -46,10 +46,10 @@ public class Fornecedor implements Serializable {
 		public void setArea_Produtos(String area_Produtos) {
 			this.area_Produtos = area_Produtos;
 		}
-		public int getTelefone() {
+		public String getTelefone() {
 			return telefone;
 		}
-		public void setTelefone(int telefone) {
+		public void setTelefone(String telefone) {
 			this.telefone = telefone;
 		}
 		public String getEmail() {

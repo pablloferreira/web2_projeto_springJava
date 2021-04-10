@@ -7,5 +7,4 @@ import br.com.faculdadedelta.cadastroFornecedor.model.Fornecedor;
 public interface FornecedorRepository extends CrudRepository<Fornecedor, String> {
 	Fornecedor findById(int id);
 	
-	
 }
